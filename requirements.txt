@@ -1,0 +1,10 @@
+streamlit==1.38.0
+transformers
+fastapi
+pydantic
+python-dotenv
+uvicorn
+
+#streamlit cho front end, thư viện transformers để làm việc với hugging face models
+#fastapi cho backend, pydantic cho data validation sử dụng trong fastapi, python-dotenv để quản lý environment variables, lúc đầu là chatgpt bảo cần cái này, xong một hồi mình thấy cũng kh cần luôn, nhưng mà cứ để đó
+#uvicorn để serving fastapi app
