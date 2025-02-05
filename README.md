@@ -1,7 +1,5 @@
 # Gemma2chatbot
-Xây dựng một chatbot đơn giản bằng Streamlit và FastAPI với model Gemma 2 phiên bản 2 tỉ tham số đã đượce tune tối ưu cho mục đích trò chuyện. Setup này chưa đi kèm với các tối ưu về tốc độ ở phía frontend và backend(như asynchronous handling) và các tối ưu ở phía model như batching hay lượng tử hoá xuống FP16. Đây chỉ là minh hoạ một setup chatbot local đơn giản từ file model raw
-streamlit run main.py để khởi chạy front-end 
-uvicorn main:app --reload để khởi chạy back-end
+Xây dựng một chatbot đơn giản bằng Streamlit và FastAPI với model Gemma 2 phiên bản 2 tỉ tham số đã đượce tune tối ưu cho mục đích trò chuyện. Setup này chưa đi kèm với các tối ưu về tốc độ ở phía frontend và backend(như asynchronous handling) và các tối ưu ở phía model như batching hay lượng tử hoá xuống FP16. Đây chỉ là minh hoạ một setup chatbot local đơn giản từ file model raw. Gõ streamlit run main.py để khởi chạy front-end , gõ uvicorn main:app --reload để khởi chạy back-end
 
 Để pytorch compile được trên nhân cuda của GPU, cần phải cài CUDA Driver và cuDNN libraries. 
 Trước khi cài, vào terminal gõ nvvc --version để check version CUDA
