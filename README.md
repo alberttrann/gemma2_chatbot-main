@@ -1,6 +1,6 @@
 ## Hướng Dẫn Thiết Lập Chatbot Đơn Giản với Streamlit, FastAPI và Gemma 2B (Local)
 
-Hướng dẫn này trình bày cách xây dựng một chatbot đơn giản sử dụng Streamlit (frontend) và FastAPI (backend), với mô hình Gemma 2 phiên bản 2 tỉ tham số đã được tinh chỉnh cho mục đích trò chuyện. Thiết lập này là một minh họa cơ bản về việc triển khai chatbot cục bộ từ file mô hình gốc, chưa bao gồm các tối ưu về tốc độ.
+Hướng dẫn này trình bày cách xây dựng một chatbot đơn giản sử dụng Streamlit (frontend) và FastAPI (backend), với mô hình Gemma 2 phiên bản 2 tỉ tham số đã được tinh chỉnh cho mục đích trò chuyện. Thiết lập này là một minh họa cơ bản về việc triển khai chatbot cục bộ từ file mô hình gốc, chưa bao gồm các tối ưu về tốc độ, tối ưu như batching, FP16 precision hay asynchronous handling cho phía backend, chỉ là một cách triển khai nhanh và đơn giản cho một local chatbot từ một file mô hình ngôn ngữ lớn thô.
 
 **Yêu Cầu Cài Đặt (Tùy Chọn cho GPU):**
 
